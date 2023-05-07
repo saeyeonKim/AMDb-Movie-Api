@@ -51,7 +51,7 @@ const Main = () => {
       );
       const json = await res.json();
 
-      console.log("json:", json);
+      // console.log("json:", json);
       setMovie(json.Search);
     } catch (error) {
       console.log(error);

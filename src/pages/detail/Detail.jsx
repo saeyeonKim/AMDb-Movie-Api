@@ -29,7 +29,7 @@ const Detail = () => {
     }
     fetchData();
   }, [id]);
-  console.log("movie:", movie);
+  // console.log("movie:", movie);
 
   return (
     <div className="container">
